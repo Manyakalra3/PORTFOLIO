@@ -25,7 +25,7 @@
             <i class="fas fa-crosshairs"></i>
             </a>
             <a>
-            <h1>RECOGNIZE ME</h1>
+            <h1>RECOGNIZE</h1>
           </a>
           </div>
           <div id="navbar">
@@ -383,6 +383,19 @@
     });
 </script>
 
+<script>
+  $(document).ready(function(){
+      $(".menu-toggle").click(function(){
+          $("#navbar").toggleClass("closeMenu");
+          $(".row1").toggleClass("showMenu");
+          $('.row1').click(function () {
+              $(".row1").addClass("row");
+          }, function () {
+              $(".row1").removeClass("row");
+          });
+      });
+  });
+</script>
     <script>
       $(() => {
           $(window).scroll(() => {
