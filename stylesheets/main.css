@@ -232,7 +232,8 @@ border-color: white;
 
 @media(max-width:768px){
     #sec-1{
-        height: 480px;
+     height: 459px;
+    background-size: 99% 64%;
     }
     #sec-1 .sec1-text h4,
     #banner .sec1-text a .white,.blue {
