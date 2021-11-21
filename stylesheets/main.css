@@ -280,7 +280,11 @@ border-color: white;
 
 @media(max-width:768px){
     #sec-1{
+<<<<<<< HEAD
         height: 459px;
+=======
+     height: 459px;
+>>>>>>> 30163931d688002c3102ac4a5c24a9899f57cc68
     background-size: 99% 64%;
     }
     #sec-1 .sec1-text h4,
